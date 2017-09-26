@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asseco.CSharp.Loops", "Asse
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asseco.CSharp.Enum", "Asseco.CSharp.Enum\Asseco.CSharp.Enum.csproj", "{B742A24B-956C-4958-BE40-334A9E3C6DBF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asseco.CSharp.Methods", "Asseco.CSharp.Methods\Asseco.CSharp.Methods.csproj", "{15049DE2-B9E3-4A7F-B8B4-C109EDA3777C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asseco.CSharp.Classes", "Asseco.CSharp.Classes\Asseco.CSharp.Classes.csproj", "{EC90BCD0-3618-496D-BEA3-6B2AD41E63DE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{B742A24B-956C-4958-BE40-334A9E3C6DBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B742A24B-956C-4958-BE40-334A9E3C6DBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B742A24B-956C-4958-BE40-334A9E3C6DBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15049DE2-B9E3-4A7F-B8B4-C109EDA3777C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15049DE2-B9E3-4A7F-B8B4-C109EDA3777C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15049DE2-B9E3-4A7F-B8B4-C109EDA3777C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15049DE2-B9E3-4A7F-B8B4-C109EDA3777C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC90BCD0-3618-496D-BEA3-6B2AD41E63DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC90BCD0-3618-496D-BEA3-6B2AD41E63DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC90BCD0-3618-496D-BEA3-6B2AD41E63DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC90BCD0-3618-496D-BEA3-6B2AD41E63DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
