@@ -27,6 +27,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asseco.CSharp.Lists", "Asse
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asseco.CSharp.Inheritence", "Asseco.CSharp.Inheritence\Asseco.CSharp.Inheritence.csproj", "{6B2E467E-ECF5-482D-8B9D-3D9409C06ABD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asseco.CSharp.Excercise3", "Asseco.CSharp.Excercise3\Asseco.CSharp.Excercise3.csproj", "{BB170C24-C9E4-406B-B2F1-7F2B8750E447}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asseco.CSharp.Var", "Asseco.CSharp.Var\Asseco.CSharp.Var.csproj", "{1C8558B2-EB90-43C5-BEAC-39C5F5161108}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asseco.CSharp.Models", "Asseco.CSharp.Models\Asseco.CSharp.Models.csproj", "{0E4DB413-9A09-4C80-8717-ACD5C5F69AB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asseco.CSharp.ShoppingClient", "Asseco.CSharp.ShoppingClient\Asseco.CSharp.ShoppingClient.csproj", "{51E345B7-BA84-492A-B863-CCC2775E09A5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +89,22 @@ Global
 		{6B2E467E-ECF5-482D-8B9D-3D9409C06ABD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B2E467E-ECF5-482D-8B9D-3D9409C06ABD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B2E467E-ECF5-482D-8B9D-3D9409C06ABD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB170C24-C9E4-406B-B2F1-7F2B8750E447}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB170C24-C9E4-406B-B2F1-7F2B8750E447}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB170C24-C9E4-406B-B2F1-7F2B8750E447}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB170C24-C9E4-406B-B2F1-7F2B8750E447}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C8558B2-EB90-43C5-BEAC-39C5F5161108}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C8558B2-EB90-43C5-BEAC-39C5F5161108}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C8558B2-EB90-43C5-BEAC-39C5F5161108}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C8558B2-EB90-43C5-BEAC-39C5F5161108}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E4DB413-9A09-4C80-8717-ACD5C5F69AB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E4DB413-9A09-4C80-8717-ACD5C5F69AB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E4DB413-9A09-4C80-8717-ACD5C5F69AB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E4DB413-9A09-4C80-8717-ACD5C5F69AB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51E345B7-BA84-492A-B863-CCC2775E09A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51E345B7-BA84-492A-B863-CCC2775E09A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51E345B7-BA84-492A-B863-CCC2775E09A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51E345B7-BA84-492A-B863-CCC2775E09A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
