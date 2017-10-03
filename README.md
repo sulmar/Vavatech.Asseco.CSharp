@@ -2,7 +2,7 @@
 Przykłady ze szkolenia C# dla firmy Asseco w Bydgoszczy.
 
 Szkolenie ukierowane było na zastosowanie języka C# do pisania automatycznych testów regresyjnych w środowisku
-[Ranorex!](http://www.ranorex.com).
+[Ranorex](http://www.ranorex.com).
 
 
 ## Ranorex
