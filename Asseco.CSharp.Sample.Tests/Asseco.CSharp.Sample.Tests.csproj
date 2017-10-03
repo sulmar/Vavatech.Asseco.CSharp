@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{D3FAE6C9-A2FD-49BD-9762-B1206D09534B}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Asseco.CSharp.Sample.Tests</RootNamespace>
+    <AssemblyName>Asseco.CSharp.Sample.Tests</AssemblyName>
+    <RanorexVersion>7.2</RanorexVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <projectdefaultrepository>5c9d560b-5615-4ff0-bd0a-bea8bcaf3126</projectdefaultrepository>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <NoStdLib>False</NoStdLib>
+    <WarningLevel>4</WarningLevel>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <TargetFrameworkProfile />
+    <RanorexTargetsPath>$(MSBuildExtensionsPath)\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <RegisterForComInterop>False</RegisterForComInterop>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <BaseAddress>4194304</BaseAddress>
+    <FileAlignment>4096</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
+  <ItemGroup>
+    <Reference Include="Ranorex.Core" />
+    <Reference Include="Ranorex.Plugin.Cef" />
+    <Reference Include="Ranorex.Plugin.ChromeWeb" />
+    <Reference Include="Ranorex.Plugin.FirefoxWeb" />
+    <Reference Include="Ranorex.Plugin.Flex" />
+    <Reference Include="Ranorex.Plugin.Java" />
+    <Reference Include="Ranorex.Plugin.Mobile" />
+    <Reference Include="Ranorex.Plugin.Msaa" />
+    <Reference Include="Ranorex.Plugin.Office" />
+    <Reference Include="Ranorex.Plugin.Qt" />
+    <Reference Include="Ranorex.Plugin.RawText" />
+    <Reference Include="Ranorex.Plugin.Sap" />
+    <Reference Include="Ranorex.Plugin.Uia" />
+    <Reference Include="Ranorex.Plugin.Web" />
+    <Reference Include="Ranorex.Plugin.WebDriver" />
+    <Reference Include="Ranorex.Plugin.Win32" />
+    <Reference Include="Ranorex.Plugin.WinForms" />
+    <Reference Include="Ranorex.Plugin.Wpf" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Asseco.CSharp.Sample.TestsRepository.cs">
+      <BoundTo>5c9d560b-5615-4ff0-bd0a-bea8bcaf3126</BoundTo>
+      <DependentUpon>Asseco.CSharp.Sample.TestsRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>83e05ef7-f331-45fe-92c4-51bd1f6d4e4c</id>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <id>dc40eb6a-3ba0-49ca-93f2-799c9ff2da31</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>66fdde3d-1233-4078-927b-6f5d53399d4a</id>
+    </Compile>
+    <Compile Include="Recording1.cs">
+      <BoundTo>198a86d7-3309-4b8f-962d-07f4536dfa4d</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>4170da5c-2be8-49b4-8ee1-8f29dda20c7d</id>
+    </Compile>
+    <Compile Include="Recording1.UserCode.cs">
+      <BoundTo>198a86d7-3309-4b8f-962d-07f4536dfa4d</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>be7d40f9-df66-4e4a-a2f9-be467939390e</id>
+    </Compile>
+    <None Include="app.config">
+      <id>60e63d25-d3e7-4d49-8501-f0e84aa894bb</id>
+    </None>
+    <None Include="Asseco.CSharp.Sample.TestsRepository.rximg">
+      <BoundTo>5c9d560b-5615-4ff0-bd0a-bea8bcaf3126</BoundTo>
+      <DependentUpon>Asseco.CSharp.Sample.TestsRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>ac5eefc9-7322-4775-b284-3ea5f4379eb5</id>
+    </None>
+    <None Include="Asseco.CSharp.Sample.TestsRepository.rxrep">
+      <id>5c9d560b-5615-4ff0-bd0a-bea8bcaf3126</id>
+      <repoid>bfe0700e-6635-45cd-b191-d5494d62e693</repoid>
+      <reporootid>2133dcab-a929-4a4e-9a9a-3096109cc5a7</reporootid>
+    </None>
+    <None Include="Recording1.rxrec">
+      <BoundTo>5c9d560b-5615-4ff0-bd0a-bea8bcaf3126</BoundTo>
+      <id>198a86d7-3309-4b8f-962d-07f4536dfa4d</id>
+      <recordtableid>25203bee-2a47-4446-9973-ebd320c26a10</recordtableid>
+    </None>
+    <Content Include="Asseco.CSharp.Sample.Tests.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>5eed6990-ded4-4e25-b6fe-9394c5b73b33</id>
+    </Content>
+    <Content Include="Asseco.CSharp.Sample.Tests.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>18bf3263-ab43-447c-a6d0-f3f577409b04</id>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Asseco.CSharp.Core\Asseco.CSharp.Core.csproj">
+      <Project>{1699B9A1-009E-477D-8E13-F8D2786E4898}</Project>
+      <Name>Asseco.CSharp.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
+</Project>

@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<repository
+id="bfe0700e-6635-45cd-b191-d5494d62e693"
+name="Asseco_CSharp_Sample_TestsRepository"
+rxversion="7.2">
+	<codegen
+	classname="Asseco_CSharp_Sample_TestsRepository"
+	namespace="Asseco.CSharp.Sample.Tests">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="2133dcab-a929-4a4e-9a9a-3096109cc5a7"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,control,nativewindow"
+		capname="form"
+		id="4dd41c1f-6c88-4b48-9b90-cc16062ac928"
+		isrooted="True"
+		name="FrmMain"
+		refpath="/form[@controlname='FrmMain']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="text,control,nativewindow"
+			capname="text"
+			id="333abdd0-105e-426f-9f44-fef60610cea1"
+			name="TFirstName"
+			refimgid="23ec85a9-baa3-470c-a3e7-349e024fe03f"
+			refpath="/form[@controlname='FrmMain']/text[@controlname='tFirstName']"
+			searchtimeout="30000ms">
+				/form[@controlname='FrmMain']/text[@controlname='tFirstName']
+			</item>
+			<item
+			addcaps="button,control,nativewindow"
+			capname="button"
+			id="c11cd780-0d32-4c9e-a507-6eeb7a93ebed"
+			name="ButtonBOk"
+			refimgid="15d7a4fa-50a8-474a-8a78-d7cc37508b56"
+			refpath="/form[@controlname='FrmMain']/button[@controlname='bOk']"
+			searchtimeout="30000ms">
+				/form[@controlname='FrmMain']/button[@controlname='bOk']
+			</item>
+			<item
+			addcaps="picture,accessible"
+			capname="picture"
+			id="eb0a96b0-c9f5-40af-b1d7-b140370e8599"
+			name="BrakDanych"
+			refimgid="dd53da6b-1078-47c7-8c69-a52a26507c23"
+			refpath="/form[@controlname='FrmMain']/text[@controlname='lStatus']/picture[@accessiblename='Brak danych']"
+			searchtimeout="30000ms">
+				/form[@controlname='FrmMain']/?/?/picture[@accessiblename='Brak danych']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="dd27a84b-9df6-4840-8c2e-eec629604f23"
+			name="Text"
+			refimgid="a85d4b58-7bc0-4b99-981b-dac129c0d33b"
+			refpath="/form[@controlname='FrmMain']/text[@controlname='tFirstName']/text[@accessiblerole='Text']"
+			searchtimeout="30000ms">
+				/form[@controlname='FrmMain']/text[@controlname='tFirstName']/text[@accessiblerole='Text']
+			</item>
+			<item
+			addcaps="picture,accessible"
+			capname="text"
+			id="7e094e00-4f17-401a-8ca9-15f567d1d048"
+			name="DaneZostałtyZapisane"
+			refimgid="523e06b1-2544-48b9-87bf-b1e09061c2e0"
+			searchtimeout="30000ms">
+				/form[@controlname='FrmMain']/text[@controlname='lStatus']
+			</item>
+			<item
+			addcaps="text,control,nativewindow"
+			capname="text"
+			id="2fb17244-f29b-4228-95e2-266a0df2fc7e"
+			name="TLastName"
+			refimgid="a88c78a4-79d9-4917-b570-7edb816daa7f"
+			refpath="/form[@controlname='FrmMain']/text[@controlname='tLastName']"
+			searchtimeout="30000ms">
+				/form[@controlname='FrmMain']/text[@controlname='tLastName']
+			</item>
+			<item
+			addcaps="text,control,nativewindow"
+			capname="text"
+			id="08f711e1-71d8-4024-9969-76886a2fc684"
+			name="TStatus"
+			refimgid="b6f88e8b-808c-4883-870c-9bf3e5f7eed3"
+			refpath="/form[@controlname='FrmMain']/text[@controlname='tStatus']"
+			searchtimeout="30000ms">
+				/form[@controlname='FrmMain']/text[@controlname='tStatus']
+			</item>
+			<item
+			addcaps="datetime,control,nativewindow"
+			capname="datetime"
+			id="78fbac79-a3b7-44ef-9e3a-bca2519e9fe8"
+			name="DBeginDate"
+			refimgid="7b0fb7f5-7696-4955-a264-d5466c3230e5"
+			refpath="/form[@controlname='FrmMain' and @title='Formularz' and @processname='Asseco.CSharp.Sample' and @controltypename='FrmMain' and @instance='0']/datetime[@controlname='dBeginDate']"
+			searchtimeout="30000ms">
+				/form[@controlname='FrmMain']/datetime[@controlname='dBeginDate']
+			</item>
+			<item
+			addcaps="button,control,nativewindow"
+			capname="button"
+			id="6d68d03d-f2e5-4d84-8bbf-eaea50194478"
+			name="BCalculator"
+			refimgid="a7b08ca2-a054-460f-a6ee-e769e5b8667c"
+			refpath="/form[@controlname='FrmMain']/button[@controlname='bCalculator']"
+			searchtimeout="30000ms">
+				/form[@controlname='FrmMain']/button[@controlname='bCalculator']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="00c53744-d967-4974-8dcc-09c4754ed002"
+			name="None"
+			refpath="/form[@controlname='FrmMain']/text[@controlname='tFirstName']/text"
+			searchtimeout="30000ms">
+				/form[@controlname='FrmMain']/?/?/text
+			</item>
+			<basepath>
+				/form[@controlname='FrmMain']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAH4SURBVDhPrdFdSJNhGMbxR1BzhTJzapnsJGgU
+RnQQEXYQhGkEgRIUihSzrKyEMM0ME00ENRY6WjPLmOasObKkHDTKmoSBERUZbNWsVdtys/nRKjr5
+9+F74AvBwLrggufk/l0Hj/gveTDoYD6VzmcB6SnLsDGZbxOdfPW2EnbXMDNawvTjPCaHNnKlOj4y
+MGRQEfY08cVVzsyzQqYeZTN5by2fB9R0VC6KDNxvTZqzmknIrmGiP4VxaxzGsoVyYGxNNM7VMTzP
+iGVkVRyOlQrsusVMDWcT+r1qUxPoS+DTtWh83QJ9qUIOTN/sJWQ2ETDq8Taexro8noEmJaE7GoL9
+yQR6Ffh7ovjYJfBcFuhK4uRA8KIBf3MDnqpy3hwoQq9O5EaDkuCv1XFLDD6z4INJ8K5D4G4XNO5f
+IAfenzqB+3AxzvwdvMjZTPWSFCy1CfivRuGVVscuCV63CZxGQX1RrBxwFe5idFsWTzPXMZKh4aAq
+7a9/P7fS+SxQkZrKEdVSipPS2J24jAJlOlV9b+l08Kftd+GsDequw7Fu2HrcJgekpyxlZhdGO5y5
+DTVWONoF+9qgoOUH67U9kYG9hiectECpCbTnIV/3ndz6ADmVr1iReyEykFc3yJ5zsLM5zPZaH1sq
+XrLp0EM2aG+RntUiB+ZT6fxfIsRPbYnQgbXhGFYAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="9132383b-7ac8-4e49-bfbd-bcac0287c923"
+		isrooted="True"
+		name="AssecoCSharpSample"
+		refpath="/form[@title='' and @processname='Asseco.CSharp.Sample']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="unknown,nativewindow"
+			capname="unknown"
+			id="52432aba-ec36-43e9-b4bf-66b1a1e5bcb2"
+			name="SysMonthCal32"
+			refimgid="63c925f0-2869-4721-829e-4a2ce8635348"
+			refpath="/form[@title='' and @processname='Asseco.CSharp.Sample']/element[@class='SysMonthCal32']"
+			searchtimeout="30000ms">
+				/form[@title='' and @processname='Asseco.CSharp.Sample']/element[@class='SysMonthCal32']
+			</item>
+			<basepath>
+				/form[@title='' and @processname='Asseco.CSharp.Sample']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAAlFJREFUOE+lk+tLk2EYh/eX9CGipCIyCKLo4HHlzA8SVoR9KogkkKDM
+CKRCCwQtKUjtIJSdrKggqQ+CFZmHHGlzzrU552HqNnWbO7zHXT3bBLXQoG74fXvv63c9z8tj+O9p
+aDFz55WDmuYBqpp+cLnRzJnqTk5UdlNc8YWic60Ulr6koOTJshw8/RjjkXIMdc9tNLVrNLZp3GqV
+qX4dofJZkIpHs5Q3+Tl710fJ7UlO1o5zvNrN0SoXh644yS8zsyZtB4baZjN1bwLcfBvm4oMpTt1w
+U3zdybFrDg5ftVNYYaPg0iCmcisHLgxgLLOQe95CRmk369KNGGoaXuAPxAhHNeZFQhGVYFghIDIb
+SsUbUPDMyLi9Mg6PhHVMosvqYePW7QJQ38JqE4+DokJEijMX0ZkKaoz6VSwuLxs2b8Nw/+n7hU//
+HE0HSYkzH9OZmdeYnNNw+xR+Tir0DP0FoItmWSwnm8M606J5TDQ7pxSs4zKd1tUACW1NLMtxglEd
+X0hjYlbD5VWwTSj0j8h8tgjAphUAi+pxZsRySl3FLtQtozK9wxLtfSsAkupqQl1PqQdS6o6kusJ3
+l0yXQ6LNnACkLwckb1yDqDh3YKn6dEq9zy3R45TosMX40PsbQOyiLqiHhLo/eesqIwl1z6L6V3uM
+T9Yo73q8rE8A7i0xEOVI4p+HYggATMyByxdnyKPRP6rxbVilw67wcVBOAtambRFvof4hufvzyTGa
+yBbJEskUycg1sS/HxN7sPPaI7M7KY1dmKjszUsnJL2LhTf7rGAy/AP7X5rYY5FLEAAAAAElFTkSu
+QmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,control,nativewindow"
+		capname="form"
+		id="95ccc7a7-3fc7-42a5-8536-86f5b99f257d"
+		isrooted="True"
+		name="FrmCalculator"
+		refpath="/form[@controlname='FrmCalculator']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="3a11393d-3f82-45be-b87d-888f2876de44"
+			name="Text"
+			refimgid="3dcfeab7-3d68-46c8-b9d7-b9eef9b59eb8"
+			refpath="/form[@controlname='FrmCalculator']/text[@controlname='tConsumtion']/text[@accessiblerole='Text']"
+			searchtimeout="30000ms">
+				/form[@controlname='FrmCalculator']/text[@controlname='tConsumtion']/text[@accessiblerole='Text']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="5dca4124-8fc5-4406-a713-ec02291d3750"
+			name="Text1"
+			refimgid="b6191a54-1ada-467d-9e13-6bc8bc4dd7eb"
+			refpath="/form[@controlname='FrmCalculator']/text[@controlname='tRate']/text[@accessiblerole='Text']"
+			searchtimeout="30000ms">
+				/form[@controlname='FrmCalculator']/text[@controlname='tRate']/text[@accessiblerole='Text']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="84d8b7e6-db4d-41c1-a1f7-18171af62fd9"
+			name="ZużycieEnergii"
+			refimgid="da39ccd5-e6b9-4080-81e6-7abd0ccf04ba"
+			refpath="/form[@controlname='FrmCalculator']/text[@controlname='tResult']/text[@accessiblename='Zużycie energii']"
+			searchtimeout="30000ms">
+				/form[@controlname='FrmCalculator']/?/?/text[@accessiblename='Zu&#380;ycie energii']
+			</item>
+			<item
+			addcaps="button,control,nativewindow"
+			capname="button"
+			id="0dc06e51-b33d-4ddc-8107-809040685641"
+			name="BCalculate"
+			refimgid="da89eccb-f04e-4da5-8605-e8770aaa2d4d"
+			refpath="/form[@controlname='FrmCalculator']/button[@controlname='bCalculate']"
+			searchtimeout="30000ms">
+				/form[@controlname='FrmCalculator']/button[@controlname='bCalculate']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="36c8afaa-90de-4671-8c09-b3592e0fdc35"
+			name="Zamknij"
+			refimgid="050dd5a0-fe03-4e31-83a3-a762c9dd6ab3"
+			refpath="/form[@controlname='FrmCalculator']/titlebar/button[@accessiblename='Zamknij']"
+			searchtimeout="30000ms">
+				/form[@controlname='FrmCalculator']/?/?/button[@accessiblename='Zamknij']
+			</item>
+			<item
+			addcaps="text,control,nativewindow"
+			capname="text"
+			id="bdb098c7-e196-4b88-ac55-687389179758"
+			name="TConsumtion"
+			refimgid="f80cad36-ae7f-4360-9229-f961cc13f8e3"
+			refpath="/form[@controlname='FrmCalculator']/text[@controlname='tConsumtion']"
+			searchtimeout="30000ms">
+				/form[@controlname='FrmCalculator']/text[@controlname='tConsumtion']
+			</item>
+			<item
+			addcaps="text,control,nativewindow"
+			capname="text"
+			id="8f0a686d-2e23-4641-9b82-8e71a0f80c42"
+			name="TRate"
+			refimgid="7c8eec4d-b367-4a24-97a5-f895b06313b9"
+			refpath="/form[@controlname='FrmCalculator']/text[@controlname='tRate']"
+			searchtimeout="30000ms">
+				/form[@controlname='FrmCalculator']/text[@controlname='tRate']
+			</item>
+			<item
+			addcaps="text,control,nativewindow"
+			capname="text"
+			id="4dbdd587-5aad-4529-a447-afdac6e907b8"
+			name="TResult"
+			refimgid="6a2a1b0d-a272-4f9d-a92b-0bf31a667b35"
+			refpath="/form[@controlname='FrmCalculator']/text[@controlname='tResult']"
+			searchtimeout="30000ms">
+				/form[@controlname='FrmCalculator']/text[@controlname='tResult']
+			</item>
+			<basepath>
+				/form[@controlname='FrmCalculator']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAH4SURBVDhPrdFdSJNhGMbxR1BzhTJzapnsJGgU
+RnQQEXYQhGkEgRIUihSzrKyEMM0ME00ENRY6WjPLmOasObKkHDTKmoSBERUZbNWsVdtys/nRKjr5
+9+F74AvBwLrggufk/l0Hj/gveTDoYD6VzmcB6SnLsDGZbxOdfPW2EnbXMDNawvTjPCaHNnKlOj4y
+MGRQEfY08cVVzsyzQqYeZTN5by2fB9R0VC6KDNxvTZqzmknIrmGiP4VxaxzGsoVyYGxNNM7VMTzP
+iGVkVRyOlQrsusVMDWcT+r1qUxPoS+DTtWh83QJ9qUIOTN/sJWQ2ETDq8Taexro8noEmJaE7GoL9
+yQR6Ffh7ovjYJfBcFuhK4uRA8KIBf3MDnqpy3hwoQq9O5EaDkuCv1XFLDD6z4INJ8K5D4G4XNO5f
+IAfenzqB+3AxzvwdvMjZTPWSFCy1CfivRuGVVscuCV63CZxGQX1RrBxwFe5idFsWTzPXMZKh4aAq
+7a9/P7fS+SxQkZrKEdVSipPS2J24jAJlOlV9b+l08Kftd+GsDequw7Fu2HrcJgekpyxlZhdGO5y5
+DTVWONoF+9qgoOUH67U9kYG9hiectECpCbTnIV/3ndz6ADmVr1iReyEykFc3yJ5zsLM5zPZaH1sq
+XrLp0EM2aG+RntUiB+ZT6fxfIsRPbYnQgbXhGFYAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>
